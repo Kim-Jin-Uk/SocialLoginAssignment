@@ -13,6 +13,8 @@
 .signin {
   color: #1D1D1D;
   margin-left: 4px;
+  cursor: pointer;
+  display: inline-block;
   &:hover{
     text-decoration: underline;
     text-underline-position: under;
