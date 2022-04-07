@@ -1,0 +1,59 @@
+.wrapper{
+  width: 100%;
+  height: 56px;
+  padding-right: 8px;
+  position: sticky;
+  border-bottom: 1px solid #E8E8E8;
+}
+
+.public_button{
+  width: 89px;
+  height: 36px;
+  margin-right: 12px;
+
+  position: relative;
+  top: 50%;
+  transform: translateY(-50%);
+  float: right;
+
+  border-radius: 2px;
+
+  font-size: 14px;
+  font-family: 'Spoqa Han Sans Neo', sans-serif;
+
+  cursor: pointer;
+}
+
+.login_button{
+  background: #FFFFFF;
+  border: 1px solid #E8E8E8;
+
+  &:hover{
+    background: #E8E8E8;
+  }
+}
+
+.signup_button{
+  background: #1D1D1D;
+  border: none;
+  color: #FFFFFF;
+
+  &:hover{
+    background: #404040;
+  }
+}
+
+.icon{
+  display: inline-block;
+  width: 40px;
+  height: 40px;
+  position: relative;
+  top: 50%;
+  transform: translateY(-50%);
+  margin-left: 20px;
+
+  background: url(../../images/dog.png) no-repeat;
+  background-size: cover;
+
+  cursor: pointer;
+}

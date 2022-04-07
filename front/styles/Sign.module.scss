@@ -1,0 +1,69 @@
+.title{
+  font-size: 24px;
+  font-weight: 600;
+  margin: 0 0 20px 0;
+}
+
+.sub_title{
+  font-size: 13px;
+  color: #616161;
+  margin-bottom: 48px;
+}
+
+.signin {
+  color: #1D1D1D;
+  margin-left: 4px;
+  &:hover{
+    text-decoration: underline;
+    text-underline-position: under;
+    font-weight: 700;
+  }
+}
+
+.sns_btn{
+  width: 100%;
+  height: 56px;
+  border-radius: 4px;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  > div{
+    height: 24px;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    > div{
+      vertical-align: top;
+      display: inline-block;
+      font-size: 14px;
+      margin-right: 4px;
+    }
+  }
+}
+
+.naver_btn{
+  background-color: #1EC800;
+  > div{
+    color: #FFFFFF;
+  }
+}
+
+.naver_icon{
+  background: url(../images/icons/naver_icon.svg);
+  width: 24px;
+  height: 24px;
+}
+
+.kakao_btn{
+  margin-top: 16px;
+  background-color: #FAE300;
+  > div{
+    color: #1D1D1D;
+  }
+}
+
+.kakao_icon{
+  background: url(../images/icons/kakao_icon.svg);
+  width: 24px;
+  height: 24px;
+}
