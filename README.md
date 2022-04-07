@@ -1,10 +1,10 @@
 # DAY1
 
-###Create
+##Create
 - Home Page: header
 - Login Page: all ui
 - Signup Page: all ui
 
-###Update
+##Update
 - Home style sheet: extension
 - Login Page: Link => div (for router replacement)
