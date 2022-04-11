@@ -57,3 +57,23 @@
 
   cursor: pointer;
 }
+
+.profile_icon{
+  width: 36px;
+  height: 36px;
+  float: right;
+  top: 50%;
+  position: relative;
+  transform: translateY(-50%);
+  border-radius: 18px;
+}
+
+.profile_email{
+  float: right;
+  top: 50%;
+  position: relative;
+  transform: translateY(-50%);
+  margin-right: 12px;
+  font-size: 14px;
+  font-weight: 700;
+}
